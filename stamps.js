@@ -686,7 +686,7 @@ const stampData = {
         9: ["https://images.neopets.com/items/coi_maractite_worn.gif", "Worn Maractite Coin"],
         10: ["https://images.neopets.com/items/coin_koi_maractite.gif", "Simple Maractite Coin"],
         11: ["https://images.neopets.com/items/coi_maraquan_kau.gif", "Maraquan Kau Maractite Coin"],
-        12: ["https://images.neopets.com/items/coi_maractite_runed.gif", "Runed Maractite Coin"]
+        12: ["https://images.neopets.com/items/coi_maractite_runed.gif", "Runed Maractite Coin"],
         13: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         14: ["https://images.neopets.com/items/sea_rusty_clone_maractite_coin.gif", "Rusty Sloth Clone Maractite Coin"],
         15: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
