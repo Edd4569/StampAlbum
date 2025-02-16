@@ -186,7 +186,7 @@ const stampData = {
         22: ["https://images.neopets.com/items/sta_winter_ski_lodge.gif", "Ski Lodge Stamp"],
         23: ["https://images.neopets.com/items/stamp_snowy_snowager.gif", "Snowager Stamp"],
         24: ["https://images.neopets.com/items/sta_winter_snowbunny.gif", "Snowbunny Stamp"],
-        25: ["https://images.neopets.com/items/sta_winter_sticky_snowflake.gif", "Sticky Snowflake Stamp"],
+        25: ["https://images.neopets.com/items/sta_winter_sticky_snowflake.gif", "Sticky Snowflake Stamp"]
     },
     8: {
         1: ["https://images.neopets.com/items/stamp_destruct_fight.gif", "Meridell Heroes Stamp"],
@@ -213,7 +213,7 @@ const stampData = {
         22: ["https://images.neopets.com/items/stamp_darigan.gif", "Lord Darigan Stamp"],
         23: ["https://images.neopets.com/items/stamp_meridell_skarl.gif", "King Skarl Stamp"],
         24: ["https://images.neopets.com/items/stamp_vex.gif", "Master Vex Stamp"],
-        25: ["https://images.neopets.com/items/sta_meridell_dariganspect.gif", "Darigan Spectre Stamp"],
+        25: ["https://images.neopets.com/items/sta_meridell_dariganspect.gif", "Darigan Spectre Stamp"]
     },
     9: {
         1: ["https://images.neopets.com/items/stamp_desert6.gif", "Golden Khamette Stamp"],
@@ -240,7 +240,7 @@ const stampData = {
         22: ["https://images.neopets.com/items/stamp_desert_coltzan.gif", "Coltzan Stamp"],
         23: ["https://images.neopets.com/items/stamp_desert_scarab.gif", "Scarab Stamp"],
         24: ["https://images.neopets.com/items/stamp_desert_coin.gif", "Lucky Coin Stamp"],
-        25: ["https://images.neopets.com/items/stamp_desert_shrine.gif", "Holographic Coltzans Shrine Stamp"],
+        25: ["https://images.neopets.com/items/stamp_desert_shrine.gif", "Holographic Coltzans Shrine Stamp"]
     },
     10: {
         1: ["https://images.neopets.com/items/sta_bd_swordofscardsen.gif", "Sword of Skardsen Stamp"],
@@ -267,7 +267,7 @@ const stampData = {
         22: ["https://images.neopets.com/items/sta_bd_pion_shield.gif", "Shield Of Pion Troect Stamp"],
         23: ["https://images.neopets.com/items/sta_rainbowhand.gif", "Rainbow Sticky Hand Stamp"],
         24: ["https://images.neopets.com/items/sta_darkduck.gif", "Dark Battle Duck Stamp"],
-        25: ["https://images.neopets.com/items/sta_bd_slices.gif", "Battle Slices Stamp"],
+        25: ["https://images.neopets.com/items/sta_bd_slices.gif", "Battle Slices Stamp"]
  },
 11: {
         1: ["https://images.neopets.com/items/coin_babaa.gif", "Silver Babaa Coin"],
@@ -294,7 +294,7 @@ const stampData = {
         22: ["https://images.neopets.com/items/coi_sloth.gif", "Dr Sloth Coin"],
         23: ["https://images.neopets.com/items/coin_kauvara.gif", "Crystal Kauvara Coin"],
         24: ["https://images.neopets.com/items/coi_quill.gif", "Neopian Times Coin"],
-        25: ["https://images.neopets.com/items/coin_emerald_eyrie.gif", "Emerald Eyrie Coin"],
+        25: ["https://images.neopets.com/items/coin_emerald_eyrie.gif", "Emerald Eyrie Coin"]
  },
 12: {
         1: ["https://images.neopets.com/items/sta_darkgraspberry.gif", "Dark Graspberry Stamp"],
@@ -321,7 +321,7 @@ const stampData = {
         22: ["https://images.neopets.com/items/sta_meerca_spy.gif", "Meerca Spy Stamp"],
         23: ["https://images.neopets.com/items/sta_great_battle.gif", "The Great Battle Stamp"],
         24: ["https://images.neopets.com/items/sta_kass.gif", "Lord Kass Stamp"],
-        25: ["https://images.neopets.com/items/sta_three.gif", "The Three Stamp"],
+        25: ["https://images.neopets.com/items/sta_three.gif", "The Three Stamp"]
  },
 13: {
         1: ["https://images.neopets.com/items/sta_nq2_trestin.gif", "Trestin Stamp"],
@@ -348,7 +348,7 @@ const stampData = {
         22: ["https://images.neopets.com/items/sta_nq2_scuzzy.gif", "Scuzzy Stamp"],
         23: ["https://images.neopets.com/items/sta_nq2_anubits.gif", "Anubits Stamp"],
         24: ["https://images.neopets.com/items/sta_nq2_ramtor.gif", "Ramtor Stamp"],
-        25: ["https://images.neopets.com/items/sta_nq2_terask.gif", "Terask Stamp"],
+        25: ["https://images.neopets.com/items/sta_nq2_terask.gif", "Terask Stamp"]
  },
 14: {
         1: ["https://images.neopets.com/items/sta_coconut_golden.gif", "Golden Coco Stamp"],
@@ -375,7 +375,7 @@ const stampData = {
         22: ["https://images.neopets.com/items/sta_other_goldmote.gif", "Gold Mote Stamp"],
         23: ["https://images.neopets.com/items/sta_other_vonrooplush.gif", "Count Von Roo Plushie Stamp"],
         24: ["https://images.neopets.com/items/sta_readytoroll.gif", "Ready to Roll Stamp"],
-        25: ["https://images.neopets.com/items/sta_other_labray.gif", "Lab Ray Stamp"],
+        25: ["https://images.neopets.com/items/sta_other_labray.gif", "Lab Ray Stamp"]
  },
 15: {
         1: ["https://images.neopets.com/items/coi_spa_veggieballs.gif", "Grundo Veggieballs Coin"],
@@ -402,7 +402,7 @@ const stampData = {
         22: ["https://images.neopets.com/items/coi_space_gorixcylara.gif", "Gorix and Cylara Coin"],
         23: ["https://images.neopets.com/items/coi_space_npv2.gif", "Neopet V2 Coin"],
         24: ["https://images.neopets.com/items/coi_spacefaerie_smile.gif", "Smiling Space Faerie Coin"],
-        25: ["https://images.neopets.com/items/coi_sloth_scowl.gif", "Scowling Sloth Coin"],
+        25: ["https://images.neopets.com/items/coi_sloth_scowl.gif", "Scowling Sloth Coin"]
  },
 16: {
         1: ["https://images.neopets.com/items/spo_coconut_1.gif", "Angry Evil Coconut"],
@@ -429,7 +429,7 @@ const stampData = {
         22: ["https://images.neopets.com/items/spo_coconut_21.gif", "Moaning Evil Coconut"],
         23: ["https://images.neopets.com/items/spo_coconut_24.gif", "Sliced Evil Coconut"],
         24: ["https://images.neopets.com/items/spo_coconut_15.gif", "Scorched Evil Coconut"],
-        25: ["https://images.neopets.com/items/spo_coconut_25.gif", "Golden Evil Coconut"],
+        25: ["https://images.neopets.com/items/spo_coconut_25.gif", "Golden Evil Coconut"]
  },
 17: {
         1: ["https://images.neopets.com/items/she_giantclam.gif", "Green Clam Shell"],
@@ -456,7 +456,7 @@ const stampData = {
         22: ["https://images.neopets.com/items/she_clams.gif", "Matching Pastel Shells"],
         23: ["https://images.neopets.com/items/she_orangulous.gif", "Royal Orange Cowry Shell"],
         24: ["https://images.neopets.com/items/she_purple_twirl.gif", "Purple Twirly Shell"],
-        25: ["https://images.neopets.com/items/she_goldback.gif", "Golden Shell"],
+        25: ["https://images.neopets.com/items/she_goldback.gif", "Golden Shell"]
  },
 18: {
         1: ["https://images.neopets.com/items/sta_maracititedagger.gif", "Maractite Dagger Stamp"],
@@ -483,7 +483,7 @@ const stampData = {
         22: ["https://images.neopets.com/items/sta_mar_garin.gif", "Garin Stamp"],
         23: ["https://images.neopets.com/items/sta_mar_isca.gif", "Isca Stamp"],
         24: ["https://images.neopets.com/items/sta_mar_scarblade.gif", "Captain Scarblade Stamp"],
-        25: ["https://images.neopets.com/items/sta_mar_kelpbeard.gif", "King Kelpbeard Stamp"],
+        25: ["https://images.neopets.com/items/sta_mar_kelpbeard.gif", "King Kelpbeard Stamp"]
  },
 19: {
         1: ["https://images.neopets.com/items/sta_altador_siyana.gif", "Siyana Stamp"],
@@ -510,7 +510,7 @@ const stampData = {
         22: ["https://images.neopets.com/items/sta_altador_sasha.gif", "Sasha Stamp"],
         23: ["https://images.neopets.com/items/altcp2_sta_yooyuball.gif", "Yooyu Celebration Stamp"],
         24: ["https://images.neopets.com/items/sta_altador_kingaltador.gif", "King Altador Stamp"],
-        25: ["https://images.neopets.com/items/altcp_colusseum_stamp.gif", "Altador Colosseum Stamp"],
+        25: ["https://images.neopets.com/items/altcp_colusseum_stamp.gif", "Altador Colosseum Stamp"]
  },
 20: {
         1: ["https://images.neopets.com/items/sta_shenku.gif", "Shenkuu City Stamp"],
@@ -537,7 +537,7 @@ const stampData = {
         22: ["https://images.neopets.com/items/sta_anshu.gif", "Anshu Fishing Stamp"],
         23: ["https://images.neopets.com/items/sta_shen_wisegnorbu.gif", "Wise Gnorbu Stamp"],
         24: ["https://images.neopets.com/items/sta_quilin.gif", "Quilin Stamp"],
-        25: ["https://images.neopets.com/items/sta_shenkustamp.gif", "Shenkuu Stamp"],
+        25: ["https://images.neopets.com/items/sta_shenkustamp.gif", "Shenkuu Stamp"]
  },
 21: {
         1: ["https://images.neopets.com/items/zip_gnome_nimmodreaming.gif", "Nimmo Gnome Collectable Charm"],
@@ -564,7 +564,7 @@ const stampData = {
         22: ["https://images.neopets.com/items/toy_gallion_collect_charm.gif", "Gallion Collectable Charm"],
         23: ["https://images.neopets.com/items/toy_techo_statue_charm.gif", "Techo Statue Collectable Charm"],
         24: ["https://images.neopets.com/items/toy_taikostandingdrum_charm.gif", "Taiko Standing Drum Collectable Charm"],
-        25: ["https://images.neopets.com/items/toy_elephante_lamp_charm.gif", "Elephante Lamp Collectable Charm"],
+        25: ["https://images.neopets.com/items/toy_elephante_lamp_charm.gif", "Elephante Lamp Collectable Charm"]
  },
 22: {
         1: ["https://images.neopets.com/items/sta_other_veggiepizza.gif", "Veggie Pizza Stamp"],    
@@ -591,7 +591,7 @@ const stampData = {
         22: ["https://images.neopets.com/items/sta_captainguardbrynn.gif", "Captain of the Guard Stamp"],
         23: ["https://images.neopets.com/items/sta_geraptiku.gif", "Geraptiku Stamp"],
         24: ["https://images.neopets.com/items/sta_altcp_comm_acvi.gif", "Altador Cup VI Commemorative Stamp"],
-        25: ["https://images.neopets.com/items/sta_gmc_grainvbrawn.gif", "Brains vs. Brawn Stamp"],
+        25: ["https://images.neopets.com/items/sta_gmc_grainvbrawn.gif", "Brains vs. Brawn Stamp"]
  },
 23: {
         1: ["https://images.neopets.com/items/sta_library_faerie.gif", "Library Faerie Stamp"],
@@ -618,7 +618,7 @@ const stampData = {
         22: ["https://images.neopets.com/items/sta_stw_wheelofexcitement.gif", "Wheel of Excitement Stamp"],
         23: ["https://images.neopets.com/items/sta_faerie_caverns.gif", "Faerie Caverns Stamp"],
         24: ["https://images.neopets.com/items/sta_jhudora_castle.gif", "Jhudoras Cloud Stamp"],
-        25: ["https://images.neopets.com/items/sta_queen_fyora.gif", "Queen Fyora Stamp"],
+        25: ["https://images.neopets.com/items/sta_queen_fyora.gif", "Queen Fyora Stamp"]
  },
 24: {
         1: ["https://images.neopets.com/items/coi_scarab_yellowbas.gif", "Basic Yellow Collectable Scarab"],
@@ -645,7 +645,7 @@ const stampData = {
         22: ["https://images.neopets.com/items/coi_scarab_yellowgre.gif", "Greater Yellow Collectable Scarab"],
         23: ["https://images.neopets.com/items/coi_scarab_sparkleb.gif", "Sparkleback Collectable Scarab"],
         24: ["https://images.neopets.com/items/coi_spotblu_scarabs.gif", "Spotted Blue Collectable Scarab"],
-        25: ["https://images.neopets.com/items/coi_large_black_scarab.gif", "Large Black Collectable Scarab"],
+        25: ["https://images.neopets.com/items/coi_large_black_scarab.gif", "Large Black Collectable Scarab"]
  },
 25: {
         1: ["https://images.neopets.com/items/sta_moltaraentrance.gif", "Entrance to Moltara Stamp"],
@@ -672,7 +672,7 @@ const stampData = {
         22: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         23: ["https://images.neopets.com/items/sta_moltara_igneot.gif", "Igneots Cavern Stamp"],
         24: ["https://images.neopets.com/items/sta_lava_monster.gif", "Lava Monster Stamp"],
-        25: ["https://images.neopets.com/items/sta_igneot.gif", "Igneot Stamp"],
+        25: ["https://images.neopets.com/items/sta_igneot.gif", "Igneot Stamp"]
  },
 26: {
         1: ["https://images.neopets.com/items/coi_maractite_squared.gif", "Squared Maractite Coin"],
@@ -686,7 +686,7 @@ const stampData = {
         9: ["https://images.neopets.com/items/coi_maractite_worn.gif", "Worn Maractite Coin"],
         10: ["https://images.neopets.com/items/coin_koi_maractite.gif", "Simple Maractite Coin"],
         11: ["https://images.neopets.com/items/coi_maraquan_kau.gif", "Maraquan Kau Maractite Coin"],
-        12: ["https://images.neopets.com/items/coi_maractite_runed.gif", "Runed Maractite Coin"],
+        12: ["https://images.neopets.com/items/coi_maractite_runed.gif", "Runed Maractite Coin"]
         13: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         14: ["https://images.neopets.com/items/sea_rusty_clone_maractite_coin.gif", "Rusty Sloth Clone Maractite Coin"],
         15: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
@@ -699,7 +699,7 @@ const stampData = {
         22: ["https://images.neopets.com/items/coi_maractite_streaked.gif", "Streaked Maractite Coin"],
         23: ["https://images.neopets.com/items/coi_maractite_round.gif", "Round Maractite Coin"],
         24: ["https://images.neopets.com/items/coi_maractite_ancient_peo.gif", "Ancient Peophin Maractite Coin"],
-        25: ["https://images.neopets.com/items/coi_maractite_floral.gif", "Floral Maractite Coin"],
+        25: ["https://images.neopets.com/items/coi_maractite_floral.gif", "Floral Maractite Coin"]
  },
 27: {
         1: ["https://images.neopets.com/items/sta_antiquity_words.gif", "Words of Antiquity Stamp"],
@@ -726,7 +726,7 @@ const stampData = {
         22: ["https://images.neopets.com/items/sta_nabile.gif", "Nabile Stamp"],
         23: ["https://images.neopets.com/items/sta_nightsteed.gif", "Nightsteed Stamp"],
         24: ["https://images.neopets.com/items/sta_king_jazan.gif", "King Jazan Stamp"],
-        25: ["https://images.neopets.com/items/sta_wheel_of_extravagance.gif", "Wheel of Extravagance Stamp"],
+        25: ["https://images.neopets.com/items/sta_wheel_of_extravagance.gif", "Wheel of Extravagance Stamp"]
  },
 28: {
         1: ["https://images.neopets.com/items/she_circlet_thedeep.gif", "Circlet of the Deep"],    
@@ -753,7 +753,7 @@ const stampData = {
         22: ["https://images.neopets.com/items/she_necklace_thedeep.gif", "Necklace of the Deep"],
         23: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         24: ["https://images.neopets.com/items/she_anklet_thedeep.gif", "Anklet of the Deep"],
-        25: ["https://images.neopets.com/items/she_thedeep_choker.gif", "Choker of the Deep"],
+        25: ["https://images.neopets.com/items/she_thedeep_choker.gif", "Choker of the Deep"]
  },
 29: {
         1: ["https://images.neopets.com/items/sta_kwark_island.gif", "Krawk Island Governor Stamp"],
@@ -769,7 +769,7 @@ const stampData = {
         11: ["https://images.neopets.com/items/sta_smugglers_cove.gif", "Smugglers Cove Stamp"],
         12: ["https://images.neopets.com/items/stamp_feldon_dinksy.gif", "Feldon Dinksy Collibridge Stamp"],
         13: ["https://images.neopets.com/items/sta_tuskaninny_sailor.gif", "Fred the Tuskaninny Sailor Stamp"],
-        14: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        14: ["https://images.neopets.com/images/stamp_benny_the_blade.gif", "Benny the Blade Stamp"],
         15: ["https://images.neopets.com/items/stamp_dubloon_o_matic.gif", "Dubloon-O-Matic Stamp"],
         16: ["https://images.neopets.com/items/sta_ddy21_barf_boat_stamp.gif", "Barf Boat Stamp"],
         17: ["https://images.neopets.com/items/sta_dorak.gif", "Dorak Stamp"],
@@ -780,7 +780,7 @@ const stampData = {
         22: ["https://images.neopets.com/items/sta_dubloon_golden.gif", "Golden Dubloon Stamp"],
         23: ["https://images.neopets.com/items/sta_y16haltot_scurvisle.gif", "Limited Edition Scurvy Island Stamp"],
         24: ["https://images.neopets.com/items/sta_grimtooth.gif", "Grimtooth Stamp"],
-        25: ["https://images.neopets.com/items/sta_governormansion.gif", "Governor Mansion Stamp"],
+        25: ["https://images.neopets.com/items/sta_governormansion.gif", "Governor Mansion Stamp"]
  },
 30: {
         1: ["https://images.neopets.com/items/sta_young_sophie.gif", "Young Sophie Stamp"],
@@ -793,7 +793,7 @@ const stampData = {
         8: ["https://images.neopets.com/items/sta_printing_press.gif", "Neovian Printing Press Shopkeeper Stamp"],
         9: ["https://images.neopets.com/items/sta_family_portrait.gif", "Family Portrait Stamp"],
         10: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        11: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        11: ["https://images.neopets.com/images/sta_orion.gif", "Orion Stamp"],
         12: ["https://images.neopets.com/items/sta_y20haltot_neovianshop.gif", "The Crumpetmonger Shop Stamp"],
         13: ["https://images.neopets.com/items/sta_spirit_slumber.gif", "Spirit of Slumber Stamp"],
         14: ["https://images.neopets.com/items/fon_sta_teatime_in_neovia.gif", "Teatime in Neovia Stamp"],
@@ -807,7 +807,7 @@ const stampData = {
         22: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         23: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         24: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        25: ["https://images.neopets.com/items/sta_gd_grave_danger.gif", "Grave Danger Stamp"],
+        25: ["https://images.neopets.com/items/sta_gd_grave_danger.gif", "Grave Danger Stamp"]
  },
 31: {
         1: ["https://images.neopets.com/items/fon_spacefaeriekari_charm.gif", "Space Faerie Kari Charm"],
@@ -834,7 +834,7 @@ const stampData = {
         22: ["https://images.neopets.com/items/toy_y19haltot_mcgill_charm.gif", "Governor McGill Collectable Charm"],
         23: ["https://images.neopets.com/items/twr_sta_tdf_collcharm.gif", "The Darkest Faerie Collectible Charm"],
         24: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        25: ["https://images.neopets.com/items/toy_ddy18_gamecontr_charm.gif", "Game Controller Collectable Charm"],
+        25: ["https://images.neopets.com/items/toy_ddy18_gamecontr_charm.gif", "Game Controller Collectable Charm"]
  },
 32: {
         1: ["https://images.neopets.com/items/sta_gcm_gctriostamp.gif", "Official Ghoul Catchers Stamp"],
@@ -861,7 +861,7 @@ const stampData = {
         22: ["https://images.neopets.com/items/sta_new_faerieland_home.gif", "New Faerieland Stamp"],
         23: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         24: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"]
  },
 33: {
         1: ["https://images.neopets.com/items/sta_battle_eyrie.gif", "Battle Eyrie Stamp"],
@@ -888,7 +888,7 @@ const stampData = {
         22: ["https://images.neopets.com/items/sta_y17gmc_taeliavember.gif", "Taelia Vs. Ember Stamp"],
         23: ["https://images.neopets.com/items/sta_fire_scorchio.gif", "Fire Breathing Scorchio Stamp"],
         24: ["https://images.neopets.com/items/sta_ddy18_preoccupiedaaa.gif", "Preoccupied AAA Stamp"],
-        25: ["https://images.neopets.com/items/sta_ddy19_chadley.gif", "Chadley Stamp"],
+        25: ["https://images.neopets.com/items/sta_ddy19_chadley.gif", "Chadley Stamp"]
  },
 34: {
         1: ["https://images.neopets.com/items/she_star_fish.gif", "Star Fish Shell"],
@@ -915,7 +915,7 @@ const stampData = {
         22: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         23: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         24: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"]
  },
 35: {
         1: ["https://images.neopets.com/items/sta_advc2019_soupfaerie.gif", "Soup Faerie Stamp"],
@@ -942,7 +942,7 @@ const stampData = {
         22: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         23: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         24: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"]
  },
 36: {
         1: ["https://images.neopets.com/items/sta_tyrannia2_yesboy.gif", "Yes-Boy Ice Cream Stamp"],
@@ -969,7 +969,7 @@ const stampData = {
         22: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         23: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         24: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"]
  },
 37: {
         1: ["https://images.neopets.com/items/sta_mika_stamp.gif", "Mika Stamp"],
@@ -993,10 +993,10 @@ const stampData = {
         19: ["https://images.neopets.com/items/sta_powtry.gif", "Powtry Stamp"],
         20: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         21: ["https://images.neopets.com/items/sta_kari_topsi.gif", "Kari and Topsi Stamp"],
-        22: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        23: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        22: ["https://images.neopets.com/images/sta_christmas_bruce.gif", "Christmas Bruce Stamp"],
+        23: ["https://images.neopets.com/images/sta_holiday_altador.gif", "Holiday King Altador Stamp"],
         24: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"]
  },
 38: {
         1: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
@@ -1023,7 +1023,7 @@ const stampData = {
         22: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         23: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         24: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"]
  },
 39: {
         1: ["https://images.neopets.com/items/coi_scarab_green.gif", "Green Patterned Collectable Scarab"],
@@ -1050,7 +1050,7 @@ const stampData = {
         22: ["https://images.neopets.com/items/coi_y18gmc_scarab_fierygold.gif", "Fiery Golden Collectable Scarab"],
         23: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         24: ["https://images.neopets.com/items/coi_acxii_scarab_colspot.gif", "Mysterious Vibrant Collectable Scarab"],
-        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"]
  },
 40: {
         1: ["https://images.neopets.com/items/gif_altador_cup_gold_coin.gif", "Altador Cup X Collectible Gold Coin"],
@@ -1077,7 +1077,7 @@ const stampData = {
         22: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         23: ["https://images.neopets.com/items/stamp_voidcoin.gif", "Void Coin"],
         24: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"]
  },
 41: {
         1: ["https://images.neopets.com/items/sta_champ_ofmeridell.gif", "Champions of Meridell Stamp"],
@@ -1100,11 +1100,11 @@ const stampData = {
         18: ["https://images.neopets.com/items/sta_baelia.gif", "Baelia Stamp"],
         19: ["https://images.neopets.com/items/sta_22_bday.gif", "Neopets 22nd Birthday Stamp"],
         20: ["https://images.neopets.com/items/stamp_christmas_fir.gif", "Christmas Fir Stamp"],
-        21: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        21: ["https://images.neopets.com/images/44f4ea2977.gif", "25th Anniversary Celebration Stamp"],
         22: ["https://images.neopets.com/items/stamp_valentine.gif", "Valentine Stamp"],
         23: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         24: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        25: ["https://images.neopets.com/items/stamp_acxix_comm.gif", "AC XIX Commemorative Stamp"],
+        25: ["https://images.neopets.com/items/stamp_acxix_comm.gif", "AC XIX Commemorative Stamp"]
  },
 42: {
         1: ["https://images.neopets.com/items/yooyu_tradiingcard.gif", "Yooyu Trading Card"],
@@ -1131,7 +1131,7 @@ const stampData = {
         22: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         23: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         24: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"]
  },
 43: {
         1: ["https://images.neopets.com/items/stamp_neopia.gif", "Stamp of Neopia"],
@@ -1158,7 +1158,7 @@ const stampData = {
         22: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         23: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         24: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"]
  },
 44: {
         1: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
@@ -1185,7 +1185,7 @@ const stampData = {
         22: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         23: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         24: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"]
  },
 45: {
         1: ["https://images.neopets.com/items/stamp_grey_draik.gif", "Nostalgic Grey Draik Stamp"],
@@ -1212,7 +1212,7 @@ const stampData = {
         22: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         23: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         24: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"]
  },
 46: {
         1: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
@@ -1239,7 +1239,7 @@ const stampData = {
         22: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         23: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         24: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"]
  },
 47: {
         1: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
@@ -1248,7 +1248,7 @@ const stampData = {
         4: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         5: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         6: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        7: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        7: ["https://images.neopets.com/images/stamp_neopia_usukicheer.gif", "Cheerleader Usuki Stamp"],
         8: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         9: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         10: ["https://images.neopets.com/items/stamp_councilleaders.gif", "Council of Leaders Stamp"],
@@ -1266,7 +1266,7 @@ const stampData = {
         22: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         23: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         24: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"]
         }
 };
 
