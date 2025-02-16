@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stamp Album</title>
+    <script src="stamps.js"></script>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 450px;
+            height: 450px;
+            margin: auto;
+        }
+        td {
+            width: 90px;
+            height: 90px;
+            text-align: center;
+            vertical-align: middle;
+            background-color: white;
+        }
+        .alTD {
+            width: auto;
+            height: auto;
+        }
+        .fake-stamp {
+            opacity: 25% !important;
+        }
+        img {
+            width: 80px;
+            height: 80px;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="username" align="center">My Stamp Album</h2>
+    <div align="center">
+        <input type="text" id="encodedInput" placeholder="Enter Base64 String">
+        <button onclick="decodeAndGenerate()">Submit</button>
+    <div style=" padding-top: 25px;">
+        <label for="stamp-album">Choose a stamp album:</label>
+        <select id="stamp-album" onchange="updateANumber()">
+            <option value="1">Mystery Island</option>
+            <option value="2">Virtupets</option>
+            <option value="3">Tyrannia</option>
+            <option value="4">Haunted Woods</option>
+            <option value="5">Neopia Central</option>
+            <option value="6">NeoQuest</option>
+            <option value="7">Snowy Valley</option>
+            <option value="8">Meridell vs. Darigan</option>
+            <option value="9">Lost Desert</option>
+            <option value="10">The Battledome</option>
+            <option value="11">Coins</option>
+            <option value="12">Battle For Meridell</option>
+            <option value="13">NeoQuest II</option>
+            <option value="14">Other</option>
+            <option value="15">Space Station Coins</option>
+            <option value="16">Evil Coconuts</option>
+            <option value="17">Sea Shells</option>
+            <option value="18">Maraquan</option>
+            <option value="19">Altador</option>
+            <option value="20">Shenkuu</option>
+            <option value="21">Charms</option>
+            <option value="22">Other II</option>
+            <option value="23">Faerieland</option>
+            <option value="24">Scarabs</option>
+            <option value="25">Moltara</option>
+            <option value="26">Maractite Coins</option>
+            <option value="27">Qasala</option>
+            <option value="28">Treasures of the Deep</option>
+            <option value="29">Krawk Island</option>
+            <option value="30">Neovia</option>
+            <option value="31">Charms II</option>
+            <option value="32">Mobile Apps</option>
+            <option value="33">Other III</option>
+            <option value="34">Sea Shells II</option>
+            <option value="35">Neopia Central II</option>
+            <option value="36">Tyrannia II</option>
+            <option value="37">Snowy Valley II</option>
+            <option value="38">Evil Coconuts II</option>
+            <option value="39">Scarabs II</option>
+            <option value="40">Coins Part Deux Revenge of Coin</option>
+            <option value="41">Other IV</option>
+            <option value="42">Card Collector</option>
+            <option value="43">Virtupets II</option>
+            <option value="44">Faerieland II</option>
+            <option value="45">Grey</option>
+            <option value="46">Plushies</option>
+            <option value="47">Other V</option>
+        </select>
+    </div>
+    </div>
+    <p>
+        <table border="1">
+            <tbody id="stampGrid">
+            </tbody>
+        </table>
+
+    </p>  
+    <p style="padding-top: 25px;">     
+        <table border="1">
+            <tbody id="overview">
+            </tbody>
+        </table>
+    </p> 
+    <script>
+        let selectedPage = 1;
+
+        function updateANumber() {
+            selectedPage = parseInt(document.getElementById("stamp-album").value, 10);
+            decodeAndGenerate();
+        }
+
+        function decodeAndGenerate() {
+            let encodedStr = document.getElementById("encodedInput").value;
+            try {
+                let decodedStr = atob(encodedStr);
+                let decodedData = JSON.parse(decodedStr);
+                let username = decodedData.username || "Unknown User";
+                let stampData = decodedData.stamps || [];
+                document.getElementById("username").innerText = `${username}'s Album`;
+                generateGrid(stampData);
+                updateOverview(stampData);
+
+            } catch (error) {
+                console.error("Decoding or Parsing Error:", error);
+            }
+        }
+
+        function generateGrid(stamps) {
+            let gridHtml = "";
+            for (let i = 0; i < 5; i++) {
+                gridHtml += "<tr>";
+                for (let j = 0; j < 5; j++) {
+                    let d = (i * 5 + (j + 1));
+                    let found = stamps.find(([a, b]) => a === selectedPage && b === d);
+                    let lookupResult = lookup(selectedPage, d);
+                    if (lookupResult) {
+                        let [imageUrl, title] = lookupResult;
+                        if (found) {
+                            gridHtml += `<td><img src="${imageUrl}" alt="${title}" title="${title}"></td>`;
+                        } else {
+                            gridHtml += `<td class="fake-stamp"><img src="${imageUrl}" alt="${title}" title="${title}"></td>`;
+                        }
+                    } else {
+                        gridHtml += `<td><img src="https://images.neopets.com/images/no_stamp.gif" alt="No Stamp" title="No Stamp"></td>`;
+                    }
+                }
+                gridHtml += "</tr>";
+            }
+            document.getElementById("stampGrid").innerHTML = gridHtml;
+        }
+        function updateOverview(stamps) {
+            let albumCounts = {};
+            let albumNames = getAlbumNames(); 
+
+            for (let i = 0; i < albumNames.length; i++) {
+                albumCounts[i + 1] = 0; 
+            }
+
+            stamps.forEach(([album, _]) => {
+                if (albumCounts.hasOwnProperty(album)) {
+                    albumCounts[album] += 1;
+                }
+            });
+
+            // Generate the overview table
+            let overviewHtml = "<table><tr><th>Album</th><th>Stamps Collected</th></tr>";
+            for (let i = 0; i < albumNames.length; i++) {
+                let albumNumber = i + 1;
+                let stampCount = albumCounts[albumNumber] || 0;
+                overviewHtml += `<tr><td class="alTD">${albumNames[i]}</td><td class="alTD">${stampCount}</td></tr>`;
+            }
+            overviewHtml += "</table>";
+
+            document.getElementById("overview").innerHTML = overviewHtml;
+        }
+    </script>
+</body>
+</html>
