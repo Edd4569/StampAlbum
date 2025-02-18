@@ -1161,7 +1161,7 @@ const stampData = {
         25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"]
  },
 44: {
-        1: ["https://images.neopets.com/images/g6l13af5dc.gif", "Faerie Fragments Baby Tiles Stamp"],
+        1: ["https://images.neopets.com/items/g6l13af5dc.gif", "Faerie Fragments Baby Tiles Stamp"],
         2: ["https://images.neopets.com/items/d3cf0h2ki5.gif", "Luxinia Stamp"],
         3: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         4: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
