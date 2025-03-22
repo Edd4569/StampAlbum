@@ -793,7 +793,7 @@ const stampData = {
         8: ["https://images.neopets.com/items/sta_printing_press.gif", "Neovian Printing Press Shopkeeper Stamp"],
         9: ["https://images.neopets.com/items/sta_family_portrait.gif", "Family Portrait Stamp"],
         10: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        11: ["https://images.neopets.com/images/sta_orion.gif", "Orion Stamp"],
+        11: ["https://images.neopets.com/items/sta_orion.gif", "Orion Stamp"],
         12: ["https://images.neopets.com/items/sta_y20haltot_neovianshop.gif", "The Crumpetmonger Shop Stamp"],
         13: ["https://images.neopets.com/items/sta_spirit_slumber.gif", "Spirit of Slumber Stamp"],
         14: ["https://images.neopets.com/items/fon_sta_teatime_in_neovia.gif", "Teatime in Neovia Stamp"],
