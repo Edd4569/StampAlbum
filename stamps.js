@@ -1267,6 +1267,33 @@ const stampData = {
         23: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         24: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"]
+},
+48: {
+        1: ["https://images.neopets.com/items/gif_wraith_business_card.gif", "Barely Legible Business Card"],
+        2: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        3: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        4: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        5: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        6: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        7: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        8: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        9: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        10: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        11: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        12: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        13: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        14: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        15: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        16: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        17: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        18: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        19: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        20: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        21: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        22: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        23: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        24: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"]
         }
 };
 
@@ -1277,7 +1304,7 @@ function getAlbumNames() {
                 "Other II", "Faerieland", "Scarabs", "Moltara", "Maractite Coins", "Qasala", "Treasures of the Deep", "Krawk Island", 
                 "Neovia", "Charms II", "Mobile Apps", "Other III", "Sea Shells II", "Neopia Central II", "Tyrannia II", "Snowy Valley II", 
                 "Evil Coconuts II", "Scarabs II", "Coins Part Deux Revenge of Coin", "Other IV", "Card Collector", "Virtupets II", "Faerieland II", 
-                "Grey", "Plushies", "Other V"];
+                "Grey", "Plushies", "Other V","Business Cards"];
 }
 
 function lookup(x, y) {
