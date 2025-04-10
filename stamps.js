@@ -921,7 +921,7 @@ const stampData = {
         1: ["https://images.neopets.com/items/sta_advc2019_soupfaerie.gif", "Soup Faerie Stamp"],
         2: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         3: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        4: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        4: ["https://images.neopets.com/items/a7774ccde3.gif", "Overstamped Stamp"],
         5: ["https://images.neopets.com/items/stamp_25thanni_aisha.gif", "25th Anniversary Aisha Stamp"],
         6: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         7: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
