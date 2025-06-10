@@ -1270,7 +1270,7 @@ const stampData = {
 },
 48: {
         1: ["https://images.neopets.com/items/gif_wraith_business_card.gif", "Barely Legible Business Card"],
-        2: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        2: ["https://images.neopets.com/items/gif_scordrax_business_card.gif", "Scored Stone Business Card"],
         3: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         4: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         5: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
