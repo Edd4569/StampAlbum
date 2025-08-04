@@ -813,7 +813,7 @@ const stampData = {
         1: ["https://images.neopets.com/items/fon_spacefaeriekari_charm.gif", "Space Faerie Kari Charm"],
         2: ["https://images.neopets.com/items/toy_imp_apple_charm.gif", "Imposter Apple Collectable Charm"],
         3: ["https://images.neopets.com/items/fon_charm_det_kari.gif", "Detective Kari Charm"],
-        4: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        4: ["hhttps://images.neopets.com/items/ci0d2n9ef0.gif", "Voided Lost Desert Amulet"],
         5: ["https://images.neopets.com/items/y24_cake_charm.gif", "Neopets 24th Cake Charm"],
         6: ["https://images.neopets.com/items/fon_astronautkari_charm.gif", "Astronaut Kari Charm"],
         7: ["https://images.neopets.com/items/sta_gnorbu_charm.gif", "Princess Terrana Collectable Charm"],
