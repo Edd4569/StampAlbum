@@ -708,7 +708,7 @@ const stampData = {
         4: ["https://images.neopets.com/items/wea_y18gmc_sta_qasala_mystical.gif", "Mystical Surroundings Stamp"],
         5: ["https://images.neopets.com/items/sta_nabile_tomos.gif", "Nabile & Tomos Stamp"],
         6: ["https://images.neopets.com/items/sta_qasalan_coffeeset.gif", "Qasalan Coffee Set Stamp"],
-        7: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        7: ["https://images.neopets.com/items/st_horace.gif", "Horace Stamp"],
         8: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         9: ["https://images.neopets.com/items/sta_qasalan_tablet.gif", "Qasalan Tablet Stamp"],
         10: ["https://images.neopets.com/items/sta_trapped_tomos.gif", "Trapped Tomos Stamp"],
