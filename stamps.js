@@ -1135,7 +1135,7 @@ const stampData = {
  },
 43: {
         1: ["https://images.neopets.com/items/stamp_neopia.gif", "Stamp of Neopia"],
-        2: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        2: ["https://images.neopets.com/items/st_gruntharxx.gif", "Gruntharxx Stamp"],
         3: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         4: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         5: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
