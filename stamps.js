@@ -902,7 +902,7 @@ const stampData = {
         9: ["https://images.neopets.com/items/she_brown_murex_shell.gif", "Brown Striped Murex Shell"],
         10: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         11: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        12: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        12: ["https://images.neopets.com/items/ak2igfcnm3.gif", "Maractite Seashell"],
         13: ["https://images.neopets.com/items/she_charybdis_seashell.gif", "Charybdis Seashell"],
         14: ["https://images.neopets.com/items/she_so_blue.gif", "So Blue Shell"],
         15: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
@@ -1271,7 +1271,7 @@ const stampData = {
 48: {
         1: ["https://images.neopets.com/items/gif_wraith_business_card.gif", "Barely Legible Business Card"],
         2: ["https://images.neopets.com/items/gif_scordrax_business_card.gif", "Scored Stone Business Card"],
-        3: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        3: ["https://images.neopets.com/items/7762f5ggj6.gif", "Monstrous Business Card"],
         4: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         5: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         6: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
