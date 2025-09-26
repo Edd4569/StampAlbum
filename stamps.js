@@ -734,7 +734,7 @@ const stampData = {
         3: ["https://images.neopets.com/items/she_koi_thedeep.gif", "Golden Koi of the Deep"],
         4: ["https://images.neopets.com/items/she_tiara_thedeep.gif", "Tiara of the Deep"],
         5: ["https://images.neopets.com/items/gif_shell_clasp.gif", "Shell Clutch"],
-        6: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        6: ["https://images.neopets.com/items/she_siren_harp.gif", "Siren Harp of the Deep"],
         7: ["https://images.neopets.com/items/she_hairclip_thedeep.gif", "Hair Clip of the Deep"],
         8: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         9: ["https://images.neopets.com/items/she_thedeep_hairpin.gif", "Hairpin of the Deep"],
@@ -813,7 +813,7 @@ const stampData = {
         1: ["https://images.neopets.com/items/fon_spacefaeriekari_charm.gif", "Space Faerie Kari Charm"],
         2: ["https://images.neopets.com/items/toy_imp_apple_charm.gif", "Imposter Apple Collectable Charm"],
         3: ["https://images.neopets.com/items/fon_charm_det_kari.gif", "Detective Kari Charm"],
-        4: ["hhttps://images.neopets.com/items/ci0d2n9ef0.gif", "Voided Lost Desert Amulet"],
+        4: ["https://images.neopets.com/items/ci0d2n9ef0.gif", "Voided Lost Desert Amulet"],
         5: ["https://images.neopets.com/items/y24_cake_charm.gif", "Neopets 24th Cake Charm"],
         6: ["https://images.neopets.com/items/fon_astronautkari_charm.gif", "Astronaut Kari Charm"],
         7: ["https://images.neopets.com/items/sta_gnorbu_charm.gif", "Princess Terrana Collectable Charm"],
@@ -833,7 +833,7 @@ const stampData = {
         21: ["https://images.neopets.com/items/sta_sloth_charm.gif", "Sloth Collectable Charm"],
         22: ["https://images.neopets.com/items/toy_y19haltot_mcgill_charm.gif", "Governor McGill Collectable Charm"],
         23: ["https://images.neopets.com/items/twr_sta_tdf_collcharm.gif", "The Darkest Faerie Collectible Charm"],
-        24: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        24: ["https://images.neopets.com/items/baelia_charm.gif", "Baelia Charm"],
         25: ["https://images.neopets.com/items/toy_ddy18_gamecontr_charm.gif", "Game Controller Collectable Charm"]
  },
 32: {
