@@ -30,6 +30,10 @@
             width: 80px;
             height: 80px;
         }
+        .avatar {
+            width: 50px;
+            height: 50px;
+        }
     </style>
 </head>
 <body>
@@ -88,6 +92,11 @@
             <option value="46">Plushies</option>
             <option value="47">Other V</option>
             <option value="48">Business Cards</option>
+            <option value="99">Stamp Avatars I</option>
+            <option value="100">Stamp Avatars II</option>
+            <!-- <option value="101">Stamp Avatars III</option> -->
+            <option value="102">Secret Avatars I</option>
+            <!-- <option value="103">Secret Avatars II</option> -->
         </select>
     </div>
     </div>
@@ -109,7 +118,7 @@
         <div align="center" class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
            <p>© 1999-2025 Neopets, Inc. All rights reserved.</p>
            <figcaption class="blockquote-footer">
-              This is an unauthorized fan site (9.26.2025)
+              This is an unauthorized fan site (9.27.2025)
               <p>Questions? Concerns? Ideas? DM @eddwith3ds on discord</p>
            </figcaption>
         </div>
@@ -147,11 +156,12 @@
                     let found = stamps.find(([a, b]) => a === selectedPage && b === d);
                     let lookupResult = lookup(selectedPage, d);
                     if (lookupResult) {
-                        let [imageUrl, title] = lookupResult;
+                        let [imageUrl, title] = lookupResult;                        
+                        const avatar = (selectedPage >= 99) ? `class="avatar"` : ``;                
                         if (found) {
-                            gridHtml += `<td><img src="${imageUrl}" alt="${title}" title="${title}"></td>`;
+                            gridHtml += `<td><img ${avatar} src="${imageUrl}" alt="${title}" title="${title}"></td>`;
                         } else {
-                            gridHtml += `<td class="fake-stamp"><img src="${imageUrl}" alt="${title}" title="${title}"></td>`;
+                            gridHtml += `<td class="fake-stamp"><img ${avatar} src="${imageUrl}" alt="${title}" title="${title}"></td>`;
                         }
                     } else {
                         gridHtml += `<td><img src="https://images.neopets.com/images/no_stamp.gif" alt="No Stamp" title="No Stamp"></td>`;
@@ -174,10 +184,10 @@
                     albumCounts[album] += 1;
                 }
             });
-
+            const numOfAvatarPages = 5;
             // Generate the overview table
             let overviewHtml = "<table><tr><th>Album</th><th>Stamps Collected</th></tr>";
-            for (let i = 0; i < albumNames.length; i++) {
+            for (let i = 0; i < albumNames.length -numOfAvatarPages; i++) {
                 let albumNumber = i + 1;
                 let stampCount = albumCounts[albumNumber] || 0;
                 overviewHtml += `<tr><td class="alTD">${albumNames[i]}</td><td class="alTD">${stampCount}</td></tr>`;
