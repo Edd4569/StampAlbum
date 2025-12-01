@@ -1,3 +1,4 @@
+const updateDate = `12-1-2025 1231`;
 const stampData = {
     1: {
         1: ["https://images.neopets.com/items/stamp_mys_kou.gif", "Mystery Island Kougra Stamp"],
@@ -649,7 +650,7 @@ const stampData = {
  },
 25: {
         1: ["https://images.neopets.com/items/sta_moltaraentrance.gif", "Entrance to Moltara Stamp"],
-        2: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        2: ["https://images.neopets.com/items/st_mctaggart_monty.gif", "Monty McTaggart Stamp"],
         3: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         4: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         5: ["https://images.neopets.com/items/sta_thearcanium.gif", "The Arcanium Stamp"],
@@ -919,15 +920,15 @@ const stampData = {
  },
 35: {
         1: ["https://images.neopets.com/items/sta_advc2019_soupfaerie.gif", "Soup Faerie Stamp"],
-        2: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        2: ["https://images.neopets.com/items/cgjl745cli.gif", "25th Anniversary Kougra Stamp"],
         3: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         4: ["https://images.neopets.com/items/a7774ccde3.gif", "Overstamped Stamp"],
         5: ["https://images.neopets.com/items/stamp_25thanni_aisha.gif", "25th Anniversary Aisha Stamp"],
-        6: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        6: ["https://images.neopets.com/items/hmac2e9n8f.gif", "25th Anniversary Kacheek Stamp"],
         7: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         8: ["https://images.neopets.com/items/9i6j5bal2h.gif", "25th Anniversary Faellie Stamp"],
         9: ["https://images.neopets.com/items/st_secondhand.gif", "Second Hand Stamp"],
-        10: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        10: ["https://images.neopets.com/items/h1l5h55jil.gif", "25th Anniversary Acara Stamp"],
         11: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         12: ["https://images.neopets.com/items/stamp_25thanni_shoyru.gif", "25th Anniversary Shoyru Stamp"],
         13: ["https://images.neopets.com/items/stamp_neggnapper.gif", "Neggnapper Stamp"],
@@ -946,7 +947,7 @@ const stampData = {
  },
 36: {
         1: ["https://images.neopets.com/items/sta_tyrannia2_yesboy.gif", "Yes-Boy Ice Cream Stamp"],
-        2: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        2: ["https://images.neopets.com/items/st_pacha.gif", "Pacha Stamp"],
         3: ["https://images.neopets.com/items/sta_sing_tyr_vol.gif", "Singed Tyrannian Volcano Stamp"],
         4: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         5: ["https://images.neopets.com/items/stamp_tyrannian_fossil.gif", "Tyrannian Fossil Stamp"],
@@ -1171,13 +1172,13 @@ const stampData = {
         8: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         9: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         10: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        11: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        11: ["https://images.neopets.com/items/stamp_382.gif", "Queen Fyora Metallic Stamp"],
         12: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         13: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         14: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         15: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         16: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        17: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        17: ["https://images.neopets.com/items/stamp_386.gif", "The Darkest Faerie Stamp"],
         18: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         19: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         20: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
