@@ -123,80 +123,135 @@
            </figcaption>
         </div>
      </footer>
-    <script>
-        let selectedPage = 1;
-        document.getElementById("date").innerHTML = `This is an unauthorized fan site: (v:${updateDate})`;
+ <script>
+    let selectedPage = 1;
+    let decodedAlbumMasks = {};
+    let decodedUsername = "Unknown User";
 
-        function updateANumber() {
-            selectedPage = parseInt(document.getElementById("stamp-album").value, 10);
-            decodeAndGenerate();
-        }
+    document.getElementById("date").innerHTML =
+        `This is an unauthorized fan site: (v:${updateDate})`;
 
-        function decodeAndGenerate() {
-            let encodedStr = document.getElementById("encodedInput").value;
-            try {
-                let decodedStr = atob(encodedStr);
-                let decodedData = JSON.parse(decodedStr);
-                let username = decodedData.username || "Unknown User";
-                let stampData = decodedData.stamps || [];
-                document.getElementById("username").innerText = `${username}'s Album`;
-                generateGrid(stampData);
-                updateOverview(stampData);
+    function updateANumber() {
+        selectedPage = parseInt(
+            document.getElementById("stamp-album").value,
+            10
+        );
+        generateGrid();
+    }
 
-            } catch (error) {
-                console.error("Decoding or Parsing Error:", error);
+    function decodeAndGenerate() {
+        const encodedStr = document.getElementById("encodedInput").value.trim();
+        if (!encodedStr) return;
+
+        try {
+            const decodedStr = atob(encodedStr);
+            const data = JSON.parse(decodedStr);
+
+            // 🚨 Reject v1 payloads
+            if (!data.v || data.v !== 2 || !data.a) {
+                alert(
+                    "This album code is outdated.\n\n" +
+                    "Please re-run /album in Discord to generate a new one."
+                );
+                return;
             }
-        }
 
-        function generateGrid(stamps) {
-            let gridHtml = "";
-            for (let i = 0; i < 5; i++) {
-                gridHtml += "<tr>";
-                for (let j = 0; j < 5; j++) {
-                    let d = (i * 5 + (j + 1));
-                    let found = stamps.find(([a, b]) => a === selectedPage && b === d);
-                    let lookupResult = lookup(selectedPage, d);
-                    if (lookupResult) {
-                        let [imageUrl, title] = lookupResult;                        
-                        const avatar = (selectedPage >= 99) ? `class="avatar"` : ``;                
-                        if (found) {
-                            gridHtml += `<td><img ${avatar} src="${imageUrl}" alt="${title}" title="${title}"></td>`;
-                        } else {
-                            gridHtml += `<td class="fake-stamp"><img ${avatar} src="${imageUrl}" alt="${title}" title="${title}"></td>`;
-                        }
+            decodedUsername = data.u || "Unknown User";
+            decodedAlbumMasks = data.a;
+
+            document.getElementById("username").innerText =
+                `${decodedUsername}'s Album`;
+
+            generateGrid();
+            updateOverview();
+
+        } catch (err) {
+            console.error("Decode error:", err);
+            alert("Invalid album code.");
+        }
+    }
+
+    function hasStamp(albumID, posID) {
+        const mask = decodedAlbumMasks[albumID];
+        if (mask === undefined) return false;
+        return (mask & (1 << (posID - 1))) !== 0;
+    }
+
+    function generateGrid() {
+        let gridHtml = "";
+
+        for (let i = 0; i < 5; i++) {
+            gridHtml += "<tr>";
+            for (let j = 0; j < 5; j++) {
+                const posID = i * 5 + (j + 1);
+                const owned = hasStamp(selectedPage, posID);
+                const lookupResult = lookup(selectedPage, posID);
+
+                if (lookupResult) {
+                    const [imageUrl, title] = lookupResult;
+                    const avatar =
+                        selectedPage >= 99 ? `class="avatar"` : "";
+
+                    if (owned) {
+                        gridHtml += `
+                            <td>
+                                <img ${avatar}
+                                     src="${imageUrl}"
+                                     alt="${title}"
+                                     title="${title}">
+                            </td>`;
                     } else {
-                        gridHtml += `<td><img src="https://images.neopets.com/images/no_stamp.gif" alt="No Stamp" title="No Stamp"></td>`;
+                        gridHtml += `
+                            <td class="fake-stamp">
+                                <img ${avatar}
+                                     src="${imageUrl}"
+                                     alt="${title}"
+                                     title="${title}">
+                            </td>`;
                     }
+                } else {
+                    gridHtml += `
+                        <td>
+                            <img src="https://images.neopets.com/images/no_stamp.gif"
+                                 alt="No Stamp"
+                                 title="No Stamp">
+                        </td>`;
                 }
-                gridHtml += "</tr>";
             }
-            document.getElementById("stampGrid").innerHTML = gridHtml;
+            gridHtml += "</tr>";
         }
-        function updateOverview(stamps) {
-            let albumCounts = {};
-            let albumNames = getAlbumNames(); 
 
-            for (let i = 0; i < albumNames.length; i++) {
-                albumCounts[i + 1] = 0; 
+        document.getElementById("stampGrid").innerHTML = gridHtml;
+    }
+
+    function updateOverview() {
+        const albumNames = getAlbumNames();
+        let overviewHtml =
+            "<table><tr><th>Album</th><th>Stamps Collected</th></tr>";
+
+        for (let i = 0; i < albumNames.length; i++) {
+            const albumID = i + 1;
+            const mask = decodedAlbumMasks[albumID] || 0;
+
+            // Count bits set (Brian Kernighan trick)
+            let count = 0;
+            let temp = mask;
+            while (temp) {
+                temp &= temp - 1;
+                count++;
             }
 
-            stamps.forEach(([album, _]) => {
-                if (albumCounts.hasOwnProperty(album)) {
-                    albumCounts[album] += 1;
-                }
-            });
-            const numOfAvatarPages = 5;
-            // Generate the overview table
-            let overviewHtml = "<table><tr><th>Album</th><th>Stamps Collected</th></tr>";
-            for (let i = 0; i < albumNames.length -numOfAvatarPages; i++) {
-                let albumNumber = i + 1;
-                let stampCount = albumCounts[albumNumber] || 0;
-                overviewHtml += `<tr><td class="alTD">${albumNames[i]}</td><td class="alTD">${stampCount}</td></tr>`;
-            }
-            overviewHtml += "</table>";
-
-            document.getElementById("overview").innerHTML = overviewHtml;
+            overviewHtml += `
+                <tr>
+                    <td class="alTD">${albumNames[i]}</td>
+                    <td class="alTD">${count}</td>
+                </tr>`;
         }
-    </script>
+
+        overviewHtml += "</table>";
+        document.getElementById("overview").innerHTML = overviewHtml;
+    }
+</script>
+
 </body>
 </html>
