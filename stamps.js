@@ -1,4 +1,4 @@
-const updateDate = `12-1-2025 1231`;
+const updateDate = `12-22-2025 108`;
 const stampData = {
     1: {
         1: ["https://images.neopets.com/items/stamp_mys_kou.gif", "Mystery Island Kougra Stamp"],
@@ -1273,6 +1273,34 @@ const stampData = {
         1: ["https://images.neopets.com/items/gif_wraith_business_card.gif", "Barely Legible Business Card"],
         2: ["https://images.neopets.com/items/gif_scordrax_business_card.gif", "Scored Stone Business Card"],
         3: ["https://images.neopets.com/items/7762f5ggj6.gif", "Monstrous Business Card"],
+        4: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        5: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        6: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        7: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        8: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        9: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        10: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        11: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        12: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        13: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        14: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        15: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        16: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        17: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        18: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        19: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        20: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        21: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        22: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        23: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        24: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        25: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"]
+
+},
+49: {
+        1: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        2: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        3: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         4: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         5: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         6: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
