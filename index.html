@@ -229,8 +229,8 @@
         const albumNames = getAlbumNames();
         let overviewHtml =
             "<table><tr><th>Album</th><th>Stamps Collected</th></tr>";
-
-        for (let i = 0; i < albumNames.length; i++) {
+        const numOfAvatarPages = 5;
+        for (let i = 0; i < albumNames.length-numOfAvatarPages; i++) {
             const albumID = i + 1;
             const mask = decodedAlbumMasks[albumID] || 0;
             // Count bits set (Brian Kernighan trick)
