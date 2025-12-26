@@ -233,7 +233,6 @@
         for (let i = 0; i < albumNames.length; i++) {
             const albumID = i + 1;
             const mask = decodedAlbumMasks[albumID] || 0;
-
             // Count bits set (Brian Kernighan trick)
             let count = 0;
             let temp = mask;
