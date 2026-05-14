@@ -1,4 +1,4 @@
-const updateDate = `5/1/2026 911`;
+const updateDate = `5/14/2026 948`;
 const stampData = {
     1: {
         1: ["https://images.neopets.com/items/stamp_mys_kou.gif", "Mystery Island Kougra Stamp"],
@@ -1104,7 +1104,7 @@ const stampData = {
         21: ["https://images.neopets.com/items/44f4ea2977.gif", "25th Anniversary Celebration Stamp"],
         22: ["https://images.neopets.com/items/stamp_valentine.gif", "Valentine Stamp"],
         23: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        24: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        24: ["https://images.neopets.com/items/7k7kk5ii6n.gif", "Void Tendril Stamp"],
         25: ["https://images.neopets.com/items/stamp_acxix_comm.gif", "AC XIX Commemorative Stamp"]
  },
 42: {
@@ -1193,7 +1193,7 @@ const stampData = {
         2: ["https://images.neopets.com/items/fon_greykari_charm.gif", "Grey Kari Charm"],
         3: ["https://images.neopets.com/items/8ic7c8374m.gif", "Grey Tsunami Coin"],
         4: ["https://images.neopets.com/items/st_sera_nero.gif", "Sera Nero Stamp"],
-        5: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        5: ["https://images.neopets.com/items/st_vocivus_void.gif", "Vocivus of the Void Stamp"],
         6: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         7: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         8: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
@@ -1248,10 +1248,10 @@ const stampData = {
         3: ["https://images.neopets.com/items/ch61kbg6ih.gif", "Tea Time Stamp"],
         4: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         5: ["https://images.neopets.com/items/08f9a4nmk3.gif ", "Colouring Book Stamp"],
-        6: ["https://images.neopets.com/items/stamp_destruct_ixi.gif", "Cherry Blossom Ixi Stamp"],
+        6: ["https://images.neopets.com/items/st_being_malevolent.gif", "Malevolent Being Stamp"],
         7: ["https://images.neopets.com/items/stamp_neopia_usukicheer.gif", "Cheerleader Usuki Stamp"],
         8: ["https://images.neopets.com/items/stamp_destruct_zafara.gif", "Magical Kayla Stamp"],
-        9: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        9: ["https://images.neopets.com/items/stamp_destruct_ixi.gif ", "Cherry Blossom Ixi Stamp"],
         10: ["https://images.neopets.com/items/stamp_councilleaders.gif", "Council of Leaders Stamp"],
         11: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         12: ["https://images.neopets.com/items/df21ljk2le.gif", "Dr. Landelbrot Stamp"],
