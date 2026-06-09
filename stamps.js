@@ -1,4 +1,4 @@
-const updateDate = `5/29/2026 939`;
+const updateDate = `6/9/2026 1111`;
 const stampData = {
     1: {
         1: ["https://images.neopets.com/items/stamp_mys_kou.gif", "Mystery Island Kougra Stamp"],
@@ -1047,7 +1047,7 @@ const stampData = {
         18: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         19: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         20: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        21: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        21: ["https://images.neopets.com/items/b9e3c7a052.gif", "Void Collectable Scarab"],
         22: ["https://images.neopets.com/items/coi_y18gmc_scarab_fierygold.gif", "Fiery Golden Collectable Scarab"],
         23: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         24: ["https://images.neopets.com/items/coi_acxii_scarab_colspot.gif", "Mysterious Vibrant Collectable Scarab"],
@@ -1103,7 +1103,7 @@ const stampData = {
         20: ["https://images.neopets.com/items/stamp_christmas_fir.gif", "Christmas Fir Stamp"],
         21: ["https://images.neopets.com/items/44f4ea2977.gif", "25th Anniversary Celebration Stamp"],
         22: ["https://images.neopets.com/items/stamp_valentine.gif", "Valentine Stamp"],
-        23: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        23: ["https://images.neopets.com/items/dkld7da7gf.gif", "End Voided Stamp"],
         24: ["https://images.neopets.com/items/7k7kk5ii6n.gif", "Void Tendril Stamp"],
         25: ["https://images.neopets.com/items/stamp_acxix_comm.gif", "AC XIX Commemorative Stamp"]
  },
@@ -1369,7 +1369,7 @@ const stampData = {
         13: ["https://images.neopets.com/images/no_stamp.gif", "No Avatar"],
         14: ["https://images.neopets.com/images/no_stamp.gif", "No Avatar"],
         15: ["https://images.neopets.com/images/no_stamp.gif", "No Avatar"],
-        16: ["https://images.neopets.com/images/no_stamp.gif", "No Avatar"],
+        16: ["https://images.neopets.com/neoboards/avatars/ava_stampalbum_otheriv.gif", "No Avatar"],
         17: ["https://images.neopets.com/images/no_stamp.gif", "No Avatar"],
         18: ["https://images.neopets.com/images/no_stamp.gif", "No Avatar"],
         19: ["https://images.neopets.com/images/no_stamp.gif", "No Avatar"],
