@@ -1,4 +1,4 @@
-const updateDate = `6/9/2026 1111`;
+const updateDate = `6/12/2026 158`;
 const stampData = {
     1: {
         1: ["https://images.neopets.com/items/stamp_mys_kou.gif", "Mystery Island Kougra Stamp"],
@@ -804,7 +804,7 @@ const stampData = {
         18: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         19: ["https://images.neopets.com/items/sta_krawley_stamp.gif", "Mr. Krawley Stamp"],
         20: ["https://images.neopets.com/items/sta_dark_illere.gif", "Dark Ilere Stamp"],
-        21: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        21: ["https://images.neopets.com/items/stamp_grave-danger-petpet.gif", "Grave Danger Petpet Stamp"],
         22: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         23: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         24: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
