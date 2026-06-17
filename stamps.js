@@ -1,4 +1,4 @@
-const updateDate = `6/12/2026 158`;
+const updateDate = `6/17/2026 522`;
 const stampData = {
     1: {
         1: ["https://images.neopets.com/items/stamp_mys_kou.gif", "Mystery Island Kougra Stamp"],
@@ -690,9 +690,9 @@ const stampData = {
         12: ["https://images.neopets.com/items/coi_maractite_runed.gif", "Runed Maractite Coin"],
         13: ["https://images.neopets.com/items/coin_isca.gif", "Isca Maractite Coin"],
         14: ["https://images.neopets.com/items/sea_rusty_clone_maractite_coin.gif", "Rusty Sloth Clone Maractite Coin"],
-        15: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        15: ["https://images.neopets.com/items/coi_maractite_quiggle.gif", "Quiggle Maractite Coin"],
         16: ["https://images.neopets.com/items/coi_maractite_seaweaweed.gif", "Ancient Seaweed Maractite Coin"],
-        17: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        17: ["https://images.neopets.com/items/coi_maractite_nimmo.gif", "Maractite Nimmo Coin"],
         18: ["https://images.neopets.com/items/coi_maraquan_skeith.gif", "Maraquan Skeith Maractite Coin"],
         19: ["https://images.neopets.com/items/coi_maractite_draik_mara.gif", "Maraquan Draik Maractite Coin"],
         20: ["https://images.neopets.com/items/coi_maractite_large.gif", "Large Maractite Coin"],
@@ -1258,7 +1258,7 @@ const stampData = {
         13: ["https://images.neopets.com/items/stamp_swirlingvoid.gif", "Swirling Void Stamp"],
         14: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         15: ["https://images.neopets.com/items/stamp_mono.gif", "Bank Manager Stamp"],
-        16: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
+        16: ["https://images.neopets.com/items/8e2f4a9c53.gif", "Musical Stamp"],
         17: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         18: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         19: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
@@ -1290,7 +1290,7 @@ const stampData = {
         18: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         19: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         20: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
-        21: ["https://images.neopets.com/items/b7m4x9q2.gif", "Vocivus the Ceaseless Gormandizer Card"],
+        21: ["https://images.neopets.com/items/b7m4x9q21.gif", "Vocivus the Ceaseless Gormandizer Card"],
         22: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         23: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
         24: ["https://images.neopets.com/images/no_stamp.gif", "No Stamp"],
